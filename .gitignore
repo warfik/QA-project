@@ -12,3 +12,50 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+*.xml
+*.iml
+*.class
+*.kotlin_module
+*.log
+### JetBrains template
+##  git config --global core.excludesfile .gitignore
+###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+
+# plz read fucking readme.md
+/src/main/resources/application.yml
+
+*.iml
+*.json
+
+.idea/*
+.idea/
+out/
+debug/
+build/
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+*.class
+*.jar
+*.war
+*.ear
+*.tmp
+*.exe
+
+thumbs.db
+.DS_Store
+*.log
+
+target/generated-sources/
+target/
+/.classpath
+/.project
+.settings/
